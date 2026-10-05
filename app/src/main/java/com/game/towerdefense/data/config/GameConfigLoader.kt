@@ -15,7 +15,7 @@ import com.game.towerdefense.domain.model.WaveGroup
 import org.json.JSONArray
 import org.json.JSONObject
 
-/** Загружает баланс игры из assets/config/*.json. */
+/** Загружает баланс игры из JSON-файлов в папке assets/config. */
 class GameConfigLoader(private val context: Context) {
 
     fun load(): GameConfig {
