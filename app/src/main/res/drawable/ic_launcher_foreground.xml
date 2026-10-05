@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tower body -->
+    <path android:fillColor="#B0BEC5" android:pathData="M38,44 L70,44 L70,80 L38,80 Z" />
+    <!-- Battlements -->
+    <path android:fillColor="#B0BEC5" android:pathData="M36,34 L44,34 L44,44 L36,44 Z M50,34 L58,34 L58,44 L50,44 Z M64,34 L72,34 L72,44 L64,44 Z" />
+    <path android:fillColor="#90A4AE" android:pathData="M36,44 L72,44 L72,48 L36,48 Z" />
+    <!-- Door -->
+    <path android:fillColor="#4E342E" android:pathData="M48,80 L48,66 A6,6 0 0,1 60,66 L60,80 Z" />
+    <!-- Flag -->
+    <path android:fillColor="#5D4037" android:pathData="M53,20 L55,20 L55,34 L53,34 Z" />
+    <path android:fillColor="#E53935" android:pathData="M55,20 L68,24 L55,28 Z" />
+</vector>

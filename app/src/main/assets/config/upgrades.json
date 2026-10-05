@@ -1,0 +1,7 @@
+{
+  "upgrades": [
+    { "id": "start_money",  "name": "Стартовые деньги", "description": "Больше монет в начале каждого уровня", "maxLevel": 5, "baseCost": 100, "costStep": 50, "valuePerLevel": 25,   "unit": " монет", "percent": false },
+    { "id": "tower_damage", "name": "Урон башен",       "description": "Все башни наносят больше урона",       "maxLevel": 5, "baseCost": 150, "costStep": 100, "valuePerLevel": 0.08, "unit": "% урона", "percent": true },
+    { "id": "base_hp",      "name": "HP базы",          "description": "База выдерживает больше врагов",        "maxLevel": 5, "baseCost": 120, "costStep": 60, "valuePerLevel": 2,    "unit": " HP",    "percent": false }
+  ]
+}

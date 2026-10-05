@@ -1,0 +1,41 @@
+{
+  "sellRatio": 0.7,
+  "towers": [
+    {
+      "id": "archer", "name": "Archer Tower", "shortName": "Archer", "color": "#8D6E63",
+      "projectileSpeed": 650, "splashRadius": 0, "slowFactor": 0, "slowDuration": 0, "armorPenetration": 0,
+      "levels": [
+        { "damage": 20, "range": 150, "attackSpeed": 1.0, "cost": 50 },
+        { "damage": 35, "range": 165, "attackSpeed": 1.0, "cost": 75 },
+        { "damage": 60, "range": 180, "attackSpeed": 1.1, "cost": 125 }
+      ]
+    },
+    {
+      "id": "cannon", "name": "Cannon Tower", "shortName": "Cannon", "color": "#546E7A",
+      "projectileSpeed": 380, "splashRadius": 50, "slowFactor": 0, "slowDuration": 0, "armorPenetration": 0,
+      "levels": [
+        { "damage": 50, "range": 130, "attackSpeed": 0.5, "cost": 100 },
+        { "damage": 85, "range": 140, "attackSpeed": 0.55, "cost": 120 },
+        { "damage": 140, "range": 150, "attackSpeed": 0.6, "cost": 180 }
+      ]
+    },
+    {
+      "id": "ice", "name": "Ice Tower", "shortName": "Ice", "color": "#4FC3F7",
+      "projectileSpeed": 520, "splashRadius": 0, "slowFactor": 0.4, "slowDuration": 2.0, "armorPenetration": 0,
+      "levels": [
+        { "damage": 10, "range": 140, "attackSpeed": 1.0, "cost": 125 },
+        { "damage": 18, "range": 150, "attackSpeed": 1.1, "cost": 100 },
+        { "damage": 30, "range": 165, "attackSpeed": 1.2, "cost": 150 }
+      ]
+    },
+    {
+      "id": "magic", "name": "Magic Tower", "shortName": "Magic", "color": "#7E57C2",
+      "projectileSpeed": 650, "splashRadius": 0, "slowFactor": 0, "slowDuration": 0, "armorPenetration": 0.5,
+      "levels": [
+        { "damage": 35, "range": 180, "attackSpeed": 1.2, "cost": 175 },
+        { "damage": 55, "range": 190, "attackSpeed": 1.3, "cost": 150 },
+        { "damage": 90, "range": 205, "attackSpeed": 1.4, "cost": 225 }
+      ]
+    }
+  ]
+}

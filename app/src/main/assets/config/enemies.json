@@ -1,0 +1,10 @@
+{
+  "baseSpeed": 70,
+  "enemies": [
+    { "id": "normal",  "name": "Обычный",        "hp": 100,  "speed": 1.0, "reward": 10,  "armor": 0.0, "baseDamage": 1,  "radius": 18, "color": "#E57373" },
+    { "id": "fast",    "name": "Быстрый",        "hp": 60,   "speed": 1.8, "reward": 12,  "armor": 0.0, "baseDamage": 1,  "radius": 14, "color": "#FFD54F" },
+    { "id": "heavy",   "name": "Тяжёлый",        "hp": 400,  "speed": 0.5, "reward": 30,  "armor": 0.0, "baseDamage": 3,  "radius": 26, "color": "#8D6E63" },
+    { "id": "armored", "name": "Бронированный",  "hp": 250,  "speed": 0.7, "reward": 25,  "armor": 0.5, "baseDamage": 2,  "radius": 22, "color": "#90A4AE" },
+    { "id": "boss",    "name": "Босс",           "hp": 3000, "speed": 0.4, "reward": 200, "armor": 0.2, "baseDamage": 10, "radius": 38, "color": "#8E24AA" }
+  ]
+}
